@@ -1,0 +1,12 @@
+// 1. Asosiasi
+// Hubungan umum antar object.
+// Contoh: ComputerServer berhubungan dengan Monitor.
+
+// 2. Agregasi
+// Hubungan “has-a” tetapi object masih bisa hidup sendiri.
+// Contoh: Monitor tetap bisa ada walaupun ComputerServer dihapus.
+
+// 3. Komposisi
+// Hubungan “has-a” yang sangat kuat.
+// Jika ComputerServer dihancurkan,
+// maka Harddisk juga ikut hilang karena dibuat di dalam class.
